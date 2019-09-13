@@ -9,25 +9,10 @@ body {
 }
 
 #first {
-    width:40%;
+    width:30%;
     display: block;
-    padding-top: 100px;
+    padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#arrow {
-    width:1%;
-    display: block;
-    padding-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#finish {
-    width:20%;
-    display: block;
-    padding-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
