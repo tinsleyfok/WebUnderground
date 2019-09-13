@@ -1,19 +1,17 @@
-
-
 html,
 body {
     margin: 0px;
     overflow: hidden;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     font-family: 'Gill Sans';
-    background-color:lightpink;
+    background-color: #F4EDE4;
 }
 
-p {
-    color: white;
-    font-size: 25px;
-    position: absolute;
-    top:45%;
-    left:45%;
+img {
+    width:40%;
+    display: block;
+    padding-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
 }
