@@ -1,17 +1,33 @@
 html,
 body {
     margin: 0px;
-    overflow: hidden;
+    overflow:scroll;
     width: 100%;
     height: 100%;
     font-family: 'Gill Sans';
     background-color: #F4EDE4;
 }
 
-img {
+#first {
     width:40%;
     display: block;
-    padding-top: 125px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#arrow {
+    width:1%;
+    display: block;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#finish {
+    width:20%;
+    display: block;
+    padding-top: 25px;
     margin-left: auto;
     margin-right: auto;
 }
