@@ -2,30 +2,45 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Web Underground</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGWJpRtMXaQH80CENMwEKb7V_By5ZsaJ4" type="text/javascript"></script>
+    <link rel="stylesheet" href="main.css" />
 </head>
 
 <body>
+    <main>
 
-    <div>
-        <img id="first" src="images/map1.gif">
-    </div>
-<br/><br/><br/>
+        <img src="X.png" />
+        <!-- VIDEO
+            <video
+                src="https://placeholders-for-codepens.s3.us-east-2.amazonaws.com/Right_JetBluePR.mp4"
+                autoplay
+                muted
+                loop
+            ></video> -->
 
 
-    <script >
-        
-        setTimeout(refresh,15000)
-        
-        function refresh(){
-            location.reload(true)
-        }
-    </script>
+
+        <div class="container">
+            <section class="app-box">
+                <div class="location" id="location"></div>
+                <div class="weather-data" id="weather-data"></div>
+                <div id="icon"><img id="wicon" src="" alt="Weather icon"></div>
+                <div class="degrees" id="degrees"></div>
+                <div id="time"></div>
+
+            </section>
+        </div>
+
+
+
+
+
+    </main>
+
+    <script src="bundle.js"></script>
 </body>
 
 </html>

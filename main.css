@@ -1,0 +1,100 @@
+@import url(https: //fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    font-size: 1.4rem;
+    transition: all 300ms ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body.day {
+    color: #333;
+    background-color: white;
+}
+
+body.night {
+    color: #fff;
+    background-color: #222;
+}
+
+a {
+    color: #37f;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #69f;
+    text-decoration: none;
+}
+
+.app-box {
+    padding: 4rem 2rem 0;
+    text-align: center;
+}
+
+.title {
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 6rem;
+    }
+}
+
+.location {
+    position: absolute;
+    bottom: -104%;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+.location span {
+    text-transform: uppercase;
+}
+
+.weather-data {
+    font-size: 4rem;
+    position: absolute;
+    left: 20%;
+    bottom: -102%;
+    color: white;
+}
+
+.weather-data i {
+    display: block;
+    margin: 20px;
+    font-size: 10rem;
+}
+
+.weather-data > div {
+    text-transform: uppercase;
+}
+
+.weather-data > div > span {
+    display: block;
+    font-size: 1.4rem;
+}
+
+.degrees {
+    position: absolute;
+    bottom: -97%;
+    font-size: 4.4rem;
+    color: white;
+}
+
+#wicon {
+    position: absolute;
+    bottom: -90%;
+    left: 23%;
+}
+
+#time {
+    position: absolute;
+    bottom: -100%;
+    left: 40%;
+    color: white;
+    font-size: 5rem;
+}
