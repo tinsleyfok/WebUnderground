@@ -3,17 +3,17 @@
 
 (function makeAPICalls() {
     // get time
-    var date = new Date();
-    var hour = date.getHours();
-    var body = document.body;
+//    var date = new Date();
+//    var hour = date.getHours();
+//    var body = document.body;
     // set class for day or night
-    if (hour >= 18) {
-        body.classList.remove('day');
-        body.classList.add('night');
-    } else {
-        body.classList.remove('night');
-        body.classList.add('day');
-    }
+//    if (hour >= 18) {
+//        body.classList.remove('day');
+//        body.classList.add('night');
+//    } else {
+//        body.classList.remove('night');
+//        body.classList.add('day');
+//    }
 
     // element variables
     var theLoc = document.getElementById('location');

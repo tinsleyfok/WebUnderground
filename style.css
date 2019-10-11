@@ -1,0 +1,65 @@
+@import url(https: //fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    font-size: 1.4rem;
+    transition: all 300ms ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.location {
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+.location span {
+    text-transform: uppercase;
+}
+
+.weather-data {
+    font-size: 4rem;
+    position: absolute;
+    left: 33%;
+    bottom: 1%;
+    color: white;
+}
+
+.weather-data i {
+    display: block;
+    margin: 20px;
+    font-size: 10rem;
+}
+
+.weather-data > div {
+    text-transform: uppercase;
+}
+
+.weather-data > div > span {
+    display: block;
+    font-size: 1.4rem;
+}
+
+.degrees {
+    position: absolute;
+    left:5%;
+    bottom: 3%;
+    font-size: 4.4rem;
+    color: white;
+}
+
+#wicon {
+    position: absolute;
+    bottom: 31.5%;
+    left: 31%;
+}
+
+#time {
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+    color: white;
+    font-size: 5rem;
+}
